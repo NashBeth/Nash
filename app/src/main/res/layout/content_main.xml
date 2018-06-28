@@ -23,6 +23,7 @@
                 android:layout_marginBottom="4dp"
                 android:text="How well do you know Animals"
                 android:textAlignment="center"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="22sp" />
 
             <TextView
@@ -32,6 +33,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:text="Q1.What is the fastest water animal?"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="16sp" />
 
             <EditText
@@ -47,6 +49,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:text="Q2.What animal lives the longest?"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -83,6 +86,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:text="Q3.What are female elephants called?"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="16sp" />
 
             <RadioGroup
@@ -135,6 +139,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:text="4. Which of the following dogs is the smallest?"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="16sp" />
 
             <CheckBox
@@ -179,6 +184,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="20dp"
                 android:text="5.What existing bird has the largest wingspan?"
+                android:textColor="@android:color/holo_blue_dark"
                 android:textSize="16sp" />
 
 
@@ -224,7 +230,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:onClick="startEvaluation"
-                android:text="evaluate_button" />
+                android:text="Evaluate" />
 
             <Button
                 android:id="@+id/reset"
@@ -233,7 +239,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:onClick="reset"
-                android:text="reset_button"
+                android:text="Reset"
                 android:textColor="#ff0033"
                 android:textStyle="bold" />
 
